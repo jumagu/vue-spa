@@ -9,10 +9,10 @@
         </RouterLink>
       </div>
       <nav class="ml-auto space-x-4 flex items-center h-10 sm:space-x-6 overflow-auto">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="features">Features</RouterLink>
-        <RouterLink to="pricing">Pricing</RouterLink>
-        <RouterLink to="contact">Contact</RouterLink>
+        <RouterLink :to="{ name: 'home' }">Home</RouterLink>
+        <RouterLink :to="{ name: 'features' }">Features</RouterLink>
+        <RouterLink :to="{ name: 'pricing' }">Pricing</RouterLink>
+        <RouterLink :to="{ name: 'contact' }">Contact</RouterLink>
         <RouterLink
           :to="{ name: 'login' }"
           class="text-white bg-blue-500 px-3 py-1 rounded-md hover:bg-blue-600 transition-colors duration-300 whitespace-nowrap"
