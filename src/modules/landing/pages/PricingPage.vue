@@ -1,5 +1,3 @@
-<script></script>
-
 <template>
   <section class="">
     <div class="text-center font-semibold">
