@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section class="container px-5 pt-14 pb-24 mx-auto">
     <div class="text-center font-semibold">
       <h1 class="text-5xl">
         <span class="text-blue-700 tracking-wide">Flexible </span>
@@ -11,9 +11,11 @@
       </p>
     </div>
 
-    <div class="pt-24 flex flex-row justify-center">
+    <div
+      class="pt-14 lg:pt-24 flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-0"
+    >
       <!-- Basic Card -->
-      <div class="w-96 p-8 bg-white text-center rounded-3xl pr-16 shadow-xl">
+      <div class="w-full lg:w-96 p-8 bg-white text-center rounded-3xl lg:pr-16 shadow-xl">
         <h1 class="text-black font-semibold text-2xl">Basic</h1>
         <p class="pt-2 tracking-wide">
           <span class="text-gray-400 align-top">$ </span>
@@ -45,7 +47,7 @@
       </div>
       <!-- StartUp Card -->
       <div
-        class="w-80 p-8 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white transform scale-125"
+        class="relative w-full lg:w-80 p-8 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white lg:transform lg:scale-125"
       >
         <h1 class="text-white font-semibold text-2xl">Startup</h1>
         <p class="pt-2 tracking-wide">
@@ -80,7 +82,7 @@
         </div>
       </div>
       <!-- Enterprise Card -->
-      <div class="w-96 p-8 bg-white text-center rounded-3xl pl-16 shadow-xl">
+      <div class="w-full lg:w-96 p-8 bg-white text-center rounded-3xl lg:pl-16 shadow-xl">
         <h1 class="text-black font-semibold text-2xl">Enterprise</h1>
         <p class="pt-2 tracking-wide">
           <span class="text-gray-400 align-top">$ </span>
