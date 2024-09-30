@@ -1,5 +1,3 @@
-<!-- <script></script> -->
-
 <template>
   <section class="w-full h-full text-gray-600 relative">
     <div class="absolute inset-0 bg-gray-300">
